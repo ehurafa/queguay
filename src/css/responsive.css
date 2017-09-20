@@ -1,0 +1,66 @@
+/* desktop all */
+/* mobile all*/
+@media (max-width: 767px) {
+  body {
+    background: #201f1d url("../images/bg-responsivo.jpg") 50% 0 repeat-y;
+    background-size: cover; }
+  .camada.camada-2, .camada.camada-3, .camada.camada-4 {
+    display: none; }
+  img {
+    max-width: 100%; }
+  header {
+    padding-top: 78px;
+    padding-top: 2.391839606049947vh;
+    padding-bottom: 78px;
+    padding-bottom: 2.391839606049947vh; }
+    header img {
+      width: 56%; }
+  #empadas .head img {
+    width: 73%; }
+  .cardapio .row {
+    width: 55%;
+    margin: auto; }
+    .cardapio .row h3 {
+      margin-top: 0;
+      font-size: 1.611rem;
+      text-transform: uppercase;
+      margin-bottom: 0; }
+    .cardapio .row li {
+      margin-bottom: 20px; }
+  #endereco {
+    margin-top: 4.444rem; }
+    #endereco .head {
+      margin-bottom: 22px; }
+      #endereco .head img {
+        width: 39%; }
+    #endereco article h4 span {
+      font-size: 25px;
+      font-size: 1.389rem; }
+  #endereco article .redes-sociais {
+    margin-left: 10px;
+    margin-bottom: 0; }
+    #endereco article .redes-sociais a {
+      font-size: 30px;
+      font-size: 1.364rem; }
+  #endereco article .redes-sociais .facebook {
+    float: left;
+    margin-bottom: 20px; }
+  #endereco article .redes-sociais .instagram {
+    margin-left: 0; }
+  footer {
+    display: block; } }
+
+@media (max-width: 720px) {
+  html, body {
+    font-size: 12px; }
+  .cardapio .row {
+    width: 74%; } }
+
+@media (max-width: 480px) {
+  body {
+    background: #201f1d url("../images/bg-responsivo-small.jpg") 50% 0 no-repeat;
+    background-size: cover; }
+  #endereco article h4 {
+    font-size: 14px; }
+    #endereco article h4 span {
+      font-size: 13px; } }

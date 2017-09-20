@@ -1,0 +1,280 @@
+@font-face {
+  font-family: 'Nunito-Bold';
+  src: url("../fonts/Nunito-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito-Bold.woff") format("woff"), url("../fonts/Nunito-Bold.ttf") format("truetype"), url("../fonts/Nunito-Bold.svg#Nunito-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Nunito-Regular';
+  src: url("../fonts/Nunito-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito-Regular.woff") format("woff"), url("../fonts/Nunito-Regular.ttf") format("truetype"), url("../fonts/Nunito-Regular.svg#Nunito-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* ----------  reset --------- */
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  font-family: 'Nunito-Regular';
+  font-size: 18px;
+  color: #fff; }
+
+:focus {
+  outline: none; }
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: 0 none;
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+p {
+  font-size: 18px;
+  font-size: 1rem;
+  -webkit-backface-visibility: hidden;
+  font-style: normal;
+  color: #fff; }
+
+h3 {
+  font-size: 24px;
+  font-size: 1.333rem;
+  font-family: 'Nunito-Bold';
+  margin-bottom: 0;
+  text-transform: uppercase; }
+
+textarea {
+  resize: none; }
+
+.size-full {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+.img-full {
+  width: 100%  !important; }
+
+.hr-line {
+  display: inline-block;
+  width: 80%;
+  height: 2px;
+  background: #ededed; }
+
+blockquote {
+  border: 0;
+  padding: 0;
+  margin: 0; }
+
+::selection {
+  background: #000;
+  color: #4fb4aa; }
+
+::-moz-selection {
+  background: #000;
+  color: #4fb4aa; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+.clearfix {
+  display: inline-block; }
+
+html[xmlns] .clearfix {
+  display: block; }
+
+* html .clearfix {
+  height: 1%; }
+
+* {
+  /* safari
+    -webkit-transform: translateZ(0); */ }
+
+/* margens */
+/* margin positiva */
+.mgn-top-80 {
+  margin-top: 80px !important; }
+
+.mgn-top-70 {
+  margin-top: 70px !important; }
+
+.mgn-top-60 {
+  margin-top: 60px !important; }
+
+.mgn-top-50 {
+  margin-top: 50px !important; }
+
+.mgn-top-40 {
+  margin-top: 40px !important; }
+
+.mgn-top-20 {
+  margin-top: 20px !important; }
+
+.mgn-bottom-20 {
+  margin-bottom: 20px !important; }
+
+.mgn-bottom-30 {
+  margin-bottom: 30px !important; }
+
+.mgn-bottom-40 {
+  margin-bottom: 40px !important; }
+
+.mgn-bottom-50 {
+  margin-bottom: 50px !important; }
+
+.mgn-bottom-80 {
+  margin-bottom: 80px !important; }
+
+/* margin negativa */
+.mgn-top--80 {
+  margin-top: -80px !important; }
+
+.mgn-top--50 {
+  margin-top: -50px !important; }
+
+.mgn-right--80 {
+  margin-right: -80px !important; }
+
+.mgn-right--50 {
+  margin-right: -50px !important; }
+
+.mgn-right--30 {
+  margin-right: -30px !important; }
+
+.mgn-right--50 {
+  margin-right: -50px !important; }
+
+/* ---------- medidas --------- */
+/*
+  REM
+  
+  18px = 1rem
+  22px = 1.222rem
+  25px = 1.389rem
+  29px = 1.611rem
+  30px = 1.364rem
+  80px = 4.444rem
+
+
+  vh
+  68px = 2.391839606049947vh
+  2843px = 100vh
+
+
+*/
+/* ---------- /reset --------- */
+.container {
+  max-width: 1000px; }
+
+body {
+  background: #1b1a16 url("../images/bg.jpg") 50% 0 repeat-y;
+  background-size: cover; }
+  body.fixed {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden; }
+
+header {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding-top: 66px;
+  padding-bottom: 90px; }
+  header.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border: 2px solid red;
+    height: 95vh; }
+
+.head {
+  width: 100%;
+  float: left;
+  text-align: center; }
+
+.full {
+  float: left;
+  width: 100%; }
+
+section {
+  border: 2px solid red;
+  float: left;
+  width: 100%; }
+
+#empadas .head {
+  margin-bottom: 40px; }
+
+#empadas .cardapio .row > div {
+  overflow: hidden; }
+
+#empadas.opacity {
+  opacity: 0; }
+
+#endereco {
+  margin-top: 80px; }
+  #endereco .head {
+    margin-bottom: 52px; }
+  #endereco article {
+    text-align: center; }
+    #endereco article h4 {
+      margin-bottom: 52px;
+      line-height: 28px;
+      line-height: 1.611rem;
+      font-size: 22px;
+      font-size: 1.222rem; }
+    #endereco article .redes-sociais {
+      margin-bottom: 134px; }
+      #endereco article .redes-sociais .facebook {
+        float: right; }
+      #endereco article .redes-sociais .instagram {
+        float: left;
+        margin-left: 15px; }
+      #endereco article .redes-sociais a {
+        color: #fff;
+        margin-left: 10px; }
+        #endereco article .redes-sociais a:hover {
+          text-decoration: underline; }
+  #endereco.opacity {
+    opacity: 0; }
+
+footer {
+  float: left;
+  width: 100%;
+  display: none; }
+
+.camada {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-inedx: 1;
+  width: 100%; }
+  .camada.camada-1 {
+    z-index: 10; }
+  .camada.camada-2 {
+    background: url("../images/camada-2.png") no-repeat 0 0; }
+  .camada.camada-3 {
+    background: url("../images/camada-3.png") no-repeat 50% 0; }
+  .camada.camada-4 {
+    background: url("../images/camada-4.png") no-repeat 100% 0; }
+
+.relative {
+  position: relative; }
+
+.loader {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  text-align: center;
+  width: 100%; }
